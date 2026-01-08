@@ -1,16 +1,41 @@
-# React + Vite
+# 🛒 Shopping List App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Shopping List application** built with **React** that provides food item suggestions using an external API. Users can add items to a bucket list, mark them as completed, and delete them easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 **Auto-suggestion search**
+- 🌐 **API-based food suggestions**
+- ➕ **Add items to shopping bucket**
+- ✅ **Mark items as completed**
+- ❌ **Delete items from bucket**
+- ⚡ **Fast and responsive UI**
+- 🪝 Built using **React Hooks (useState, useEffect)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. User types food name in the input field.
+2. When input length ≥ 2, the app fetches suggestions from the API.
+3. Clicking a suggestion adds it to the shopping bucket.
+4. Users can:
+   - ✔ Toggle completion status
+   - ❌ Remove items from the list
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **JavaScript (ES6+)**
+- **HTML & CSS**
+- **Tailwind CSS**
+- **Fetch API**
+
+---
+
+## 🌍 API Used
+
